@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "node-sass -o public src -w"
+    "sass": "node-sass --watch src --output public"
   },
   "keywords": [],
   "author": "",

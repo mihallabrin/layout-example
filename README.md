@@ -4,7 +4,7 @@
 
 In the project directory, you can run:
 
-### `npm run watch`
+### `npm run sass`
 
 This watches the `src` folder and converts any SASS file(s) to compiled CSS.
 
