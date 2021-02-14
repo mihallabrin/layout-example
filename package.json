@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass --watch src/sass --output public"
+    "sass-build": "node-sass --watch src/sass --output public --output-style compressed",
+    "sass-debug": "node-sass --watch src/sass --output public --output-style expanded --source-comments --source-map true"
   },
   "keywords": [],
   "author": "",

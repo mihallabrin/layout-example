@@ -1,40 +1,69 @@
+/* line 1, src/sass/_header.scss */
 .header {
-  background-color: blue; }
-  .header__content {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-    .header__content-logo {
-      color: white;
-      padding-left: 10px; }
-    .header__content-user {
-      color: white;
-      padding-right: 10px; }
+  background-color: blue;
+}
 
+/* line 4, src/sass/_header.scss */
+.header__content {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 10, src/sass/_header.scss */
+.header__content-logo {
+  color: white;
+  padding-left: 10px;
+}
+
+/* line 15, src/sass/_header.scss */
+.header__content-user {
+  color: white;
+  padding-right: 10px;
+}
+
+/* line 1, src/sass/_main.scss */
 .main {
   height: 500px;
-  background-color: salmon; }
-  .main__content {
-    margin: 0 10px 0 10px; }
+  background-color: salmon;
+}
 
+/* line 5, src/sass/_main.scss */
+.main__content {
+  margin: 0 10px 0 10px;
+}
+
+/* line 1, src/sass/_footer.scss */
 .footer {
-  background-color: lightblue; }
-  .footer__content {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around; }
+  background-color: lightblue;
+}
 
+/* line 4, src/sass/_footer.scss */
+.footer__content {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* line 2, src/sass/panels/_simple.scss */
 .pan-sm {
   border-color: grey;
   border-radius: 5px;
-  border-style: solid; }
+  border-style: solid;
+}
 
+/* line 6, src/sass/style.scss */
 body {
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
+/* line 11, src/sass/style.scss */
 .container {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=style.css.map */
