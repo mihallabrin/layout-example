@@ -10,6 +10,12 @@ This watches the `src` folder and converts any SASS file(s) to compiled CSS. Whe
 
 NOTE: after adding a new SASS file you will have to restart the watcher.
 
+### `ctrl + shift + b`
+
+Builds and watches for changes to TypeScript files.
+
+Install this globally with npm i -g typescript
+
 ## Required Extentions
 
 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
