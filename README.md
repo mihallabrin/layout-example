@@ -8,6 +8,8 @@ In the project directory, you can run:
 
 This watches the `src` folder and converts any SASS file(s) to compiled CSS.
 
+NOTE: after adding a new SASS file you will have to restart the watcher.
+
 ## Required Extentions
 
 Live Server [https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer]
