@@ -26,6 +26,11 @@
     align-items: center;
     justify-content: space-around; }
 
+.pan-sm {
+  border: 1px;
+  border-color: grey;
+  border-radius: 5px; }
+
 body {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif; }
