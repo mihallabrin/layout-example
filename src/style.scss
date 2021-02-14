@@ -8,43 +8,43 @@ body {
   flex-direction: column;
 }
 
-header {
+.header {
   background-color: blue;
+
+  &__content {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-logo {
+      color: white;
+      padding-left: 10px;
+    }
+
+    &-user {
+      color: white;
+      padding-right: 10px;
+    }
+  }
 }
 
-.header__content {
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header__content-logo {
-  color: yellow;
-  padding-left: 10px;
-}
-
-.header__content-user {
-  color: white;
-  padding-right: 10px;
-}
-
-main {
+.main {
   height: 500px;
   background-color: salmon;
+
+  &__content {
+    margin: 0 10px 0 10px;
+  }
 }
 
-.main__content {
-  margin: 0 10px 0 10px;
-}
-
-footer {
+.footer {
   background-color: lightblue;
-}
 
-.footer__content {
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  &__content {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
