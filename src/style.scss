@@ -1,4 +1,5 @@
 @import 'header';
+@import 'footer';
 
 body {
   margin: 0;
@@ -16,16 +17,5 @@ body {
 
   &__content {
     margin: 0 10px 0 10px;
-  }
-}
-
-.footer {
-  background-color: lightblue;
-
-  &__content {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
   }
 }
