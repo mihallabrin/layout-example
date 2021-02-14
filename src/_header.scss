@@ -1,0 +1,20 @@
+.header {
+  background-color: blue;
+
+  &__content {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-logo {
+      color: white;
+      padding-left: 10px;
+    }
+
+    &-user {
+      color: white;
+      padding-right: 10px;
+    }
+  }
+}
