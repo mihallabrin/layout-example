@@ -25,7 +25,7 @@
 
 /* line 1, src/sass/_main.scss */
 .main {
-  height: 500px;
+  min-height: 100vh;
   background-color: salmon;
 }
 
