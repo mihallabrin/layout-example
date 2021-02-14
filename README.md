@@ -12,7 +12,7 @@ NOTE: after adding a new SASS file you will have to restart the watcher.
 
 ## Required Extentions
 
-(Live Server)[https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer]
+[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 Right click on `index.html` and select `Open with Live Server`.
 
