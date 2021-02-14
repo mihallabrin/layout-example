@@ -12,6 +12,12 @@
       color: white;
       padding-right: 10px; }
 
+.main {
+  height: 500px;
+  background-color: salmon; }
+  .main__content {
+    margin: 0 10px 0 10px; }
+
 .footer {
   background-color: lightblue; }
   .footer__content {
@@ -27,9 +33,3 @@ body {
 .container {
   display: flex;
   flex-direction: column; }
-
-.main {
-  height: 500px;
-  background-color: salmon; }
-  .main__content {
-    margin: 0 10px 0 10px; }
