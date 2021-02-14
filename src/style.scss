@@ -1,40 +1,50 @@
 body {
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 .container {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 header {
-  background-color: blue; }
+  background-color: blue;
+}
 
 .header__content {
   height: 50px;
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .header__content-logo {
   color: yellow;
-  padding-left: 10px; }
+  padding-left: 10px;
+}
 
 .header__content-user {
   color: white;
-  padding-right: 10px; }
+  padding-right: 10px;
+}
 
 main {
   height: 500px;
-  background-color: salmon; }
+  background-color: salmon;
+}
 
 .main__content {
-  margin: 0 10px 0 10px; }
+  margin: 0 10px 0 10px;
+}
 
 footer {
-  background-color: lightblue; }
+  background-color: lightblue;
+}
 
 .footer__content {
   height: 50px;
   display: flex;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+}
