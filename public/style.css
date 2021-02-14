@@ -27,9 +27,9 @@
     justify-content: space-around; }
 
 .pan-sm {
-  border: 1px;
   border-color: grey;
-  border-radius: 5px; }
+  border-radius: 5px;
+  border-style: solid; }
 
 body {
   margin: 0;
